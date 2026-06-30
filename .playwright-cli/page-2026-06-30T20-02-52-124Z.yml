@@ -1,0 +1,427 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#t-main-content"
+    - text: To main content
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - link [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "About us" [ref=e8] [cursor=pointer]:
+            - /url: /about-us
+            - generic [ref=e11]: About us
+          - link "QA Courses" [ref=e12] [cursor=pointer]:
+            - /url: "#submenu:QAcourses"
+            - generic [ref=e15]: QA Courses
+          - link "Call Experts" [ref=e18] [cursor=pointer]:
+            - /url: /meeting_expert
+            - generic [ref=e21]: Call Experts
+          - link "AI Courses" [ref=e22] [cursor=pointer]:
+            - /url: "#submenu:MLcourses"
+            - generic [ref=e25]: AI Courses
+          - link "Offers" [ref=e28] [cursor=pointer]:
+            - /url: "#submenu:offers"
+            - generic [ref=e31]: Offers
+          - link "Reviews" [ref=e34] [cursor=pointer]:
+            - /url: /testimonials
+            - generic [ref=e37]: Reviews
+          - link "Prices" [ref=e38] [cursor=pointer]:
+            - /url: /experts
+            - generic [ref=e41]: Prices
+          - link "Try intro week" [ref=e43] [cursor=pointer]:
+            - /url: https://courses.codemify.com/offers/yfxocHF9/checkout
+            - generic [ref=e45]: Try intro week
+          - link [ref=e47] [cursor=pointer]:
+            - /url: "#menuopen"
+    - generic [ref=e48]:
+      - button "Close menu" [ref=e49] [cursor=pointer]
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - link [ref=e56] [cursor=pointer]:
+            - /url: /
+          - navigation [ref=e57]:
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "About us" [ref=e60] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e61]:
+                - button "QA Courses" [ref=e62] [cursor=pointer]
+              - listitem [ref=e63]:
+                - button "AI Courses" [ref=e64] [cursor=pointer]
+              - listitem [ref=e65]:
+                - link "Call Experts" [ref=e66] [cursor=pointer]:
+                  - /url: /meeting_expert
+              - listitem [ref=e67]:
+                - button "Offers" [ref=e68] [cursor=pointer]
+              - listitem [ref=e69]:
+                - link "Reviews" [ref=e70] [cursor=pointer]:
+                  - /url: /testimonials
+              - listitem [ref=e71]:
+                - link "Prices" [ref=e72] [cursor=pointer]:
+                  - /url: /experts
+        - link "Try intro week" [ref=e78] [cursor=pointer]:
+          - /url: https://courses.codemify.com/offers/yfxocHF9/checkout
+          - generic [ref=e79]: Try intro week
+  - generic [ref=e82]:
+    - img [ref=e87]
+    - generic [ref=e89]:
+      - generic [ref=e91]: START A NEW CAREER IN TECH
+      - generic [ref=e93]: Work on real-world projects in manual & automation testing, learn from QA industry experts with 10+ years of experience, and go through up to 136 rounds of interview preparation throughout the course.
+      - link "Start Here":
+        - /url: "#start"
+        - generic [ref=e96] [cursor=pointer]: Start Here
+  - generic [ref=e102]:
+    - heading "What is QA?" [level=2] [ref=e106]
+    - generic [ref=e108]: Quality Assurance (QA/Software QA) is like testing a new phone to make sure it works properly before you buy it. In QA, you test apps and websites to ensure they work correctly before users experience them.
+  - generic [ref=e117]:
+    - generic [ref=e119]:
+      - generic [ref=e125]: Learn in 2-5 months
+      - generic [ref=e127]: Get practical experience in the US based startup and start job hunting in about 3.5 months
+    - generic [ref=e129]:
+      - generic [ref=e135]: No coding experience required
+      - generic [ref=e137]: The Manual QA course is beginner-friendly & requires no prior experience or technical background.
+    - generic [ref=e139]:
+      - generic [ref=e145]: Average graduate salary $95K+
+      - generic [ref=e147]: We’ll help you with resume and interview prep, so you are 100% interview-ready by the end of the course.
+    - generic [ref=e149]:
+      - generic [ref=e155]: From Manual to Automation
+      - generic [ref=e157]: Already in manual testing? Transition to automation and increase your salary potential with new skills.
+  - generic [ref=e162]:
+    - generic [ref=e166]:
+      - text: New group starts January
+      - strong [ref=e167]
+      - text: 31st
+    - link "Secure your spot" [ref=e168] [cursor=pointer]:
+      - /url: https://courses.codemify.com/offers/2oZhogLF/checkout
+      - generic [ref=e171]: Secure your spot
+    - generic [ref=e176]: Hurry up to secure your spot with a discount!
+  - heading "Our courses" [level=2] [ref=e183]
+  - generic [ref=e186]:
+    - generic [ref=e192]: Manual QA
+    - generic [ref=e194]: The tester use their hands to open up websites and visually verify they work as expected.
+    - button "Learn more" [ref=e196] [cursor=pointer]:
+      - generic [ref=e198]: Learn more
+    - generic [ref=e200]: 2 months
+    - generic [ref=e202]: Duration
+    - generic [ref=e204]: Live webinars
+    - generic [ref=e206]: 3 times a week
+    - generic [ref=e208]: Interview Prep
+    - generic [ref=e210]: 50 rounds
+    - generic [ref=e214]: Automation QA
+    - generic [ref=e216]: QA Engineers write code and use tools to automate manual tests like a pro.
+    - button "Learn more" [ref=e218] [cursor=pointer]:
+      - generic [ref=e220]: Learn more
+    - generic [ref=e222]: 3,5 months
+    - generic [ref=e224]: Duration
+    - generic [ref=e226]: Live webinars
+    - generic [ref=e228]: 3 times a week
+    - generic [ref=e230]: Interview Prep
+    - generic [ref=e232]: 86 rounds
+  - heading "Why are we the best in QA education?" [level=2] [ref=e239]
+  - generic [ref=e244]:
+    - generic [ref=e252]:
+      - generic [ref=e254]: Internship in the US Based startup
+      - generic [ref=e256]: We partner with software development companies that create innovative apps and websites. Through this collaboration, you gain hands-on experience in the industry and use it on your resume.
+    - generic [ref=e258]:
+      - generic [ref=e260]: Interview preparation
+      - generic [ref=e262]: With 136 rounds of interview practice, you’ll get real hands-on experience—both as an interviewer and a candidate. Team up with other QA students, swap tips, get expert feedback to crush your job interviews & develop public speaking skills through hands-on practice.
+    - generic [ref=e272]:
+      - generic [ref=e274]: 10+ years in the industry
+      - generic [ref=e276]: Learn from experienced QA experts with over 10 years in the industry, who share practical knowledge and mentorship to help you succeed in software testing.
+    - generic [ref=e278]:
+      - generic [ref=e280]: Expert YouTube channel
+      - generic [ref=e282]: For over 4 years, our founder has been shaping the future of QA through a leading YouTube channel, amassing over 1 million views with expert insights, real-world strategies, and career-defining advice. Join us and become an elite QA professional.
+  - generic [ref=e290]:
+    - button "Try Free Lesson" [ref=e291] [cursor=pointer]:
+      - generic [ref=e292]: Try Free Lesson
+    - link "One-on-One consultation" [ref=e293] [cursor=pointer]:
+      - /url: https://link.codemify.com/homepage?_ga=2.197850413.32392928.1742376963-1204887319.1739872048
+      - generic [ref=e294]: One-on-One consultation
+  - generic [ref=e297]:
+    - heading "Start Your QA Career Journey" [level=2] [ref=e303]
+    - generic [ref=e305]: Follow our step-by-step plan to start your QA career journey from scratch and discover if this profession is the right fit for you.
+  - generic [ref=e308]:
+    - generic [ref=e318]:
+      - generic [ref=e320]: First Free Lesson
+      - generic [ref=e322]: Watch this 7-minute video to learn what QA is and see if it’s the right career for you.
+    - generic [ref=e328]: Learn what QA specialists do
+    - generic [ref=e334]: Only 7 minutes to start your IT journey
+    - button "Try Free Lesson" [ref=e338] [cursor=pointer]:
+      - generic [ref=e340]: Try Free Lesson
+  - generic [ref=e343]:
+    - generic [ref=e353]:
+      - generic [ref=e355]: Intro Week – Hands-on Intensive
+      - generic [ref=e357]: Join our live webinars to explore the QA job market, salaries, and career prospects, with hands-on practice included.
+    - generic [ref=e363]: 3 live webinars + practice
+    - generic [ref=e369]: Great for beginners and those with some QA knowledge
+    - generic [ref=e375]: Learn about bugs, test cases, and real-world examples
+    - link "Join Intro Week" [ref=e379] [cursor=pointer]:
+      - /url: /intro-week
+      - generic [ref=e381]: Join Intro Week
+  - generic [ref=e384]:
+    - generic [ref=e394]:
+      - generic [ref=e396]: One-on-one call
+      - generic [ref=e398]:
+        - text: Book a free 30-minute consultation with Sergii Khromchenko, CEO of Codemify and Senior Engineering Manager, SDET with over 10 years of experience.
+        - text: Discuss your career goals and get personalized advice.
+    - link "Book a call" [ref=e402] [cursor=pointer]:
+      - /url: https://calendly.com/codemify/consultation
+      - generic [ref=e404]: Book a call
+  - generic [ref=e407]:
+    - generic [ref=e413]: Discover our QA courses designed to take you from beginner to job-ready in just a few months.
+    - generic [ref=e415]: Ready to Learn More?
+    - link "Explore the Courses Now":
+      - /url: /program
+      - generic [ref=e418] [cursor=pointer]: Explore the Courses Now
+    - generic [ref=e427]: Early booking secures your place in the next cohort.
+  - generic [ref=e432]:
+    - heading "Our YouTube Channel" [level=2] [ref=e438]
+    - generic [ref=e440]: Learn from the Experts
+  - generic [ref=e447]:
+    - generic [ref=e457]: 250+
+    - generic [ref=e461]: videos
+    - generic [ref=e463]: 30k+
+    - generic [ref=e467]: subscribers
+    - generic [ref=e469]: 2+ mln
+    - generic [ref=e473]: views
+    - generic [ref=e475]:
+      - generic [ref=e477]: "We believe in sharing knowledge, so on our channel, you'll find:"
+      - generic [ref=e479]:
+        - generic [ref=e485]: Student success stories
+        - generic [ref=e491]: Tutorials and useful materials for aspiring QA engineers
+        - generic [ref=e497]: Tips on interviews and job opportunities in the QA field
+    - generic [ref=e499]: With over 1 million views, our channel has become a trusted resource for learning and growth in the QA industry.
+    - link "Subscribe" [ref=e501] [cursor=pointer]:
+      - /url: https://www.youtube.com/@Codemify
+      - generic [ref=e503]: Subscribe
+  - generic [ref=e512]:
+    - heading "Student Success Stories" [level=2] [ref=e514]
+    - generic [ref=e516]: Nothing speaks louder than real success stories. Our students come from different backgrounds, but they all have one thing in common — they successfully transitioned into QA careers after completing our program.
+  - generic [ref=e527]:
+    - tabpanel [ref=e528]:
+      - generic [ref=e531]:
+        - img [ref=e535]
+        - img [ref=e537]
+    - tabpanel [ref=e538]:
+      - generic [ref=e541]:
+        - img [ref=e545]
+        - img [ref=e547]
+    - tabpanel [ref=e548]:
+      - generic [ref=e551]:
+        - img [ref=e555]
+        - img [ref=e557]
+    - tabpanel [ref=e558]:
+      - generic [ref=e561]:
+        - img [ref=e565]
+        - img [ref=e567]
+    - tabpanel [ref=e568]:
+      - generic [ref=e571]:
+        - img [ref=e575]
+        - img [ref=e577]
+    - tabpanel [ref=e578]:
+      - generic [ref=e581]:
+        - img [ref=e585]
+        - img [ref=e587]
+    - tabpanel [ref=e588]:
+      - generic [ref=e591]:
+        - img [ref=e595]
+        - img [ref=e597]
+    - tabpanel [ref=e598]:
+      - generic [ref=e601]:
+        - img [ref=e605]
+        - img [ref=e607]
+    - tabpanel [ref=e608]:
+      - generic [ref=e611]:
+        - img [ref=e615]
+        - img [ref=e617]
+  - generic [ref=e632]:
+    - tabpanel [ref=e633]:
+      - generic [ref=e636]:
+        - generic [ref=e640]:
+          - generic [ref=e649]:
+            - generic [ref=e651]: Georgii
+            - generic [ref=e655]: QA Automation Engineer at Auditboard
+          - generic [ref=e657]: I became a QA Automation Engineer at Auditboard
+          - generic [ref=e659]: "Why I chose this course among other ones: you’re gonna be working in a real startup from day one. You will be getting knowledge on one side, but also you will be using this knowledge to practice and get real experience."
+        - generic [ref=e661]:
+          - generic [ref=e670]:
+            - generic [ref=e672]: Anton
+            - generic [ref=e676]: QA Engineer at Age Of Learning
+          - generic [ref=e678]: I became a QA Engineer at Age Of Learning
+          - generic [ref=e680]: I was part of the very first group, when this course originated. That was really an amazing experience. Right now, it's gonna be almost a year that I'm employed as a QA Engineer. I wanted a change of life. I wanted a change of career. Now I work in Tech, and it's amazing.
+        - generic [ref=e682]:
+          - generic [ref=e691]:
+            - generic [ref=e693]: Jahon
+            - generic [ref=e697]: QA Engineer at Windsor Fashions
+          - generic [ref=e699]: I became a QA Engineer at Windsor Fashions
+          - generic [ref=e701]: If you attend Codemify classes, you’ll build a level of self confidence that equals 30 years of experience. So join us! It was one of the greatest decisions in my life.
+    - tabpanel [ref=e702]:
+      - generic [ref=e705]:
+        - generic [ref=e709]:
+          - generic [ref=e718]:
+            - generic [ref=e720]: Ilya
+            - generic [ref=e724]: QA Automation Engineer
+          - generic [ref=e726]: "It's the best investment in my life! I've never had any experience in QA or IT at all. I've learned a lot. So if you're still thinking should you join the class or not, I would say: YES, YOU SHOULD!"
+        - generic [ref=e728]:
+          - generic [ref=e737]:
+            - generic [ref=e739]: Anastasia
+            - generic [ref=e743]: QA Automation Engineer
+          - generic [ref=e745]: I just finished my 5 months course with Codemify, and honestly I feel super excited because I never had experience in my life in the IT field, but after 5 months I realized I have a lot of knowledge. I got the job only one week after the course.
+        - generic [ref=e747]:
+          - generic [ref=e756]:
+            - generic [ref=e758]: Vyacheslav
+            - generic [ref=e762]: QA Automation Engineer at Auditboard
+          - generic [ref=e764]: I became a QA Automation Engineer at Auditboard
+          - generic [ref=e766]: All my life I have been in the sport industry, as a fighter, and when I started the course I didn’t have any knowledge about IT. So if I could get it, you will get it for sure. Just try it and this will be the best decision in your life.
+    - tabpanel [ref=e767]:
+      - generic [ref=e770]:
+        - generic [ref=e774]:
+          - generic [ref=e783]:
+            - generic [ref=e785]: Sergey
+            - generic [ref=e789]: QA Automation Engineer
+          - generic [ref=e791]: From Mcdonald's worker to QA Automation Engineer in the USA!
+        - generic [ref=e793]:
+          - generic [ref=e802]:
+            - generic [ref=e804]: Anna
+            - generic [ref=e808]: QA Automation Engineer
+          - generic [ref=e810]: It took me about 5 weeks to get a job!
+        - generic [ref=e812]:
+          - generic [ref=e821]:
+            - generic [ref=e823]: Anton
+            - generic [ref=e827]: QA Automation Engineer
+          - generic [ref=e829]: I work remotely now, that's the biggest luxury that I see.
+    - tabpanel [ref=e830]:
+      - generic [ref=e833]:
+        - generic [ref=e837]:
+          - generic [ref=e846]:
+            - generic [ref=e848]: Dmitry
+            - generic [ref=e852]: QA Automation Engineer
+          - generic [ref=e854]: I was looking for more stability, I have always been interested in the world of IT. I've started learning coding by myself, I couldn’t find out how I can get into IT...
+        - generic [ref=e856]:
+          - generic [ref=e865]:
+            - generic [ref=e867]: Ella
+            - generic [ref=e871]: QA Automation Engineer
+          - generic [ref=e873]: I really got a job offer in 2 weeks after finishing the Codemify course.
+        - generic [ref=e875]:
+          - generic [ref=e884]:
+            - generic [ref=e886]: Irana
+            - generic [ref=e890]: QA Automation Engineer
+          - generic [ref=e892]: Yes, it's working. Just the simple methods that I need!
+  - generic [ref=e897]:
+    - link "Reviews on Google" [ref=e900] [cursor=pointer]:
+      - /url: https://www.google.com/search?sca_esv=b0f27fba977952d4&tbm=lcl&q=Codemify+INC+%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxIxNDU0MzI3NbIwMTM3MDMzBAKTDYyMrxglnfNTUnMz0yoVPP2cFS7Mu9h0YfvF7gubLnYvYsUtBwDxnrPUUwAAAA&rldimm=15162752846706611114&hl=ru-PL&sa=X&ved=2ahUKEwjVrq3jkJKMAxXtSfEDHdeyLAwQ9fQKegQITBAF&biw=1345&bih=703&dpr=1#lkt=LocalPoiReviews
+      - generic [ref=e903]: Reviews on Google
+    - generic [ref=e908]:
+      - generic [ref=e912]: "4.9"
+      - generic [ref=e916]: 124 reviews
+  - generic [ref=e923]: Our students work at
+  - generic [ref=e1035]:
+    - generic [ref=e1045]: Join the Codemify community and become our next success story!
+    - link "Explore Your Options Now" [ref=e1046] [cursor=pointer]:
+      - /url: "#start"
+      - generic [ref=e1049]: Explore Your Options Now
+  - heading "Pricing & Payment Plans" [level=2] [ref=e1063]
+  - generic [ref=e1066]:
+    - generic [ref=e1076]:
+      - generic [ref=e1078]: 100% Money-Back Guarantee
+      - generic [ref=e1080]: If the course isn’t right for you, we offer a full refund within 3 days after the course starts.
+    - generic [ref=e1082]:
+      - generic [ref=e1084]: Flexible Payment Options
+      - generic [ref=e1086]: We believe in flexible payment options so you can focus on learning without financial stress.
+    - generic [ref=e1088]:
+      - generic [ref=e1094]: Lowest APR
+      - generic [ref=e1096]: 5 payments
+      - generic [ref=e1098]:
+        - generic [ref=e1100]: 1102$
+        - generic [ref=e1102]: per month
+    - generic [ref=e1104]:
+      - generic [ref=e1110]: Learn now, pay later
+      - generic [ref=e1112]: 24 payments
+      - generic [ref=e1114]:
+        - generic [ref=e1116]: 267$
+        - generic [ref=e1118]: per month
+    - link "Learn More" [ref=e1119] [cursor=pointer]:
+      - /url: /experts
+      - generic [ref=e1122]: Learn More
+    - button "Learn More" [ref=e1123] [cursor=pointer]:
+      - generic [ref=e1126]: Learn More
+  - generic [ref=e1131]:
+    - generic [ref=e1139]:
+      - generic [ref=e1141]: Reserve your spot today!
+      - generic [ref=e1143]: Deposit $500 to secure your place and get an extra 5% discount on the full course price.
+    - link "Reserve Your Spot" [ref=e1144] [cursor=pointer]:
+      - /url: https://courses.codemify.com/offers/2oZhogLF/checkout
+      - generic [ref=e1147]: Reserve Your Spot
+  - generic [ref=e1154]:
+    - generic [ref=e1157]: FAQ
+    - generic [ref=e1158]:
+      - button "Do I need coding experience or a special degree?" [ref=e1163] [cursor=pointer]:
+        - generic [ref=e1164]: Do I need coding experience or a special degree?
+      - button "Do I need to learn math or programming?" [ref=e1179] [cursor=pointer]:
+        - generic [ref=e1180]: Do I need to learn math or programming?
+      - button "What if I don't like the course?" [ref=e1195] [cursor=pointer]:
+        - generic [ref=e1196]: What if I don't like the course?
+      - button "Does everyone find a job after the course?" [ref=e1211] [cursor=pointer]:
+        - generic [ref=e1212]: Does everyone find a job after the course?
+      - button "Are there enough jobs on the market for everyone?" [ref=e1227] [cursor=pointer]:
+        - generic [ref=e1228]: Are there enough jobs on the market for everyone?
+      - button "What is the difference between a Manual and an Automation Course?" [ref=e1243] [cursor=pointer]:
+        - generic [ref=e1244]: What is the difference between a Manual and an Automation Course?
+      - button "Why should I choose QA Automation?" [ref=e1259] [cursor=pointer]:
+        - generic [ref=e1260]: Why should I choose QA Automation?
+      - button "How much money do QA engineers earn?" [ref=e1275] [cursor=pointer]:
+        - generic [ref=e1276]: How much money do QA engineers earn?
+      - button "Do you have a money back guarantee?" [ref=e1291] [cursor=pointer]:
+        - generic [ref=e1292]: Do you have a money back guarantee?
+  - generic [ref=e1305]:
+    - generic [ref=e1309]: Already decided?
+    - link "Get Started Now" [ref=e1310] [cursor=pointer]:
+      - /url: https://courses.codemify.com/offers/2oZhogLF/checkout
+      - generic [ref=e1313]: Get Started Now
+    - generic [ref=e1318]: Secure your spot with a $500 deposit and get a 5% discount on the full course price!
+  - generic [ref=e1321]:
+    - generic [ref=e1327]:
+      - link [ref=e1329] [cursor=pointer]:
+        - /url: https://www.linkedin.com/company/codemify/
+      - link [ref=e1331] [cursor=pointer]:
+        - /url: https://www.instagram.com/codemify_?igsh=MW9jYzg2cDU4YzNzNA%3D%3D&utm_source=qr
+      - link [ref=e1333] [cursor=pointer]:
+        - /url: https://youtube.com/@codemify?si=sGcTMvkz1lZEKUSc
+      - link [ref=e1335] [cursor=pointer]:
+        - /url: https://www.facebook.com/share/1AMyJ1SAqK/?mibextid=wwXIfr
+      - link [ref=e1337] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@codemify_?_t=ZN-8ue2wJIGpAA&_r=1
+    - link [ref=e1339] [cursor=pointer]:
+      - /url: /
+    - link "support@codemify.com" [ref=e1342] [cursor=pointer]:
+      - /url: mailto:support@codemify.com
+    - generic [ref=e1344]:
+      - strong [ref=e1345]: 7901 4th St N STE 300
+      - text: ","
+      - strong [ref=e1346]: St. Petersburg
+      - text: ", FL,"
+      - strong [ref=e1347]: "33702"
+    - generic [ref=e1349]:
+      - link "About us" [ref=e1352] [cursor=pointer]:
+        - /url: /about-us
+      - link "Testimonials" [ref=e1355] [cursor=pointer]:
+        - /url: /testimonials
+      - link "FAQ" [ref=e1358] [cursor=pointer]:
+        - /url: /faq
+      - link "Pricing" [ref=e1361] [cursor=pointer]:
+        - /url: /experts
+      - link "Blog" [ref=e1364] [cursor=pointer]:
+        - /url: /blog
+    - generic [ref=e1366]:
+      - link "Automation/SDET Training" [ref=e1369] [cursor=pointer]:
+        - /url: /about-us
+      - link "Manual QA Training" [ref=e1372] [cursor=pointer]:
+        - /url: /manual-qa-course-with-real-practice
+      - link "Contact" [ref=e1375] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=e1377]: © 2026 Codemify. All rights reserved.
+    - link "Terms of Use" [ref=e1380] [cursor=pointer]:
+      - /url: /termsofuse
+    - link "Privacy Policy" [ref=e1383] [cursor=pointer]:
+      - /url: /privacypolicy
