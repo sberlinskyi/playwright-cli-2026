@@ -1,0 +1,10 @@
+{
+  "standardUser": {
+    "username": "standard_user",
+    "password": "REPLACE_ME"
+  },
+  "lockedOutUser": {
+    "username": "locked_out_user",
+    "password": "REPLACE_ME"
+  }
+}

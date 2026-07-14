@@ -15,6 +15,10 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: npm ci
+    - name: Restore test data from secrets
+      env:
+        TEST_USERS_JSON: ${{ secrets.TEST_USERS_JSON }}
+      run: echo "$TEST_USERS_JSON" > testData/users.json
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests

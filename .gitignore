@@ -6,3 +6,11 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Scratch snapshots/logs from playwright-cli exploration sessions
+/.playwright-cli/
+
+# Test data containing credentials — never pushed to GitHub.
+# Populated locally by developers and by CI from repo secrets.
+/testData/*.json
+!/testData/*.example.json
