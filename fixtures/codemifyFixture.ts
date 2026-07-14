@@ -19,7 +19,7 @@ export const test = base.extend<Fixtures>({
       await page.route('**/codemify.com/cdn-cgi/rum*', route => route.fulfill({ status: 204, body: '' }));
       await page.route('**/k.clarity.ms/collect', route => route.fulfill({ status: 204, body: '' }));
 
-      await use(); // hand off the fixture to the test
+      await use();
     },
     { auto: true },
   ],

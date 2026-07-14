@@ -1,7 +1,7 @@
 import { test, expect } from '../../fixtures/codemifyFixture';
 
-test.describe('Codemify AI Engineering', () => {
-  test('navigation with mocked API calls', async ({ homePage, aiEngineeringPage }) => {
+test.describe('AI Engineering', () => {
+  test('user has access to AI Engineering page when the request is successful', async ({ homePage, aiEngineeringPage }) => {
     await homePage.goto();
 
     await homePage.openAICourses();
@@ -11,7 +11,7 @@ test.describe('Codemify AI Engineering', () => {
     await expect(aiEngineeringPage.heading, 'Page heading should be visible after successful navigation').toBeVisible();
   });
 
-  test('access is blocked when critical page request fails', async ({ homePage, aiEngineeringPage }) => {
+  test('access is blocked when critical /AI-Engineering request fails', async ({ homePage, aiEngineeringPage }) => {
     await homePage.blockAIEngineeringAccess();
     await homePage.goto();
 
