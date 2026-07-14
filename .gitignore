@@ -6,6 +6,7 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+/results.json
 
 # Scratch snapshots/logs from playwright-cli exploration sessions
 /.playwright-cli/

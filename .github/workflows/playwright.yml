@@ -4,8 +4,15 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run against (leave blank for none)'
+        required: false
+        default: ''
 jobs:
   test:
+    name: Playwright Tests
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
@@ -22,7 +29,13 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
+      env:
+        TEST_ENV: ${{ github.event.inputs.environment }}
+        PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
+      run: npx playwright test --reporter=html,json
+    - name: Publish test summary
+      if: always()
+      run: node reporting/printTestSummary.js results.json
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
