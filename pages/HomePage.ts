@@ -2,7 +2,7 @@ import type { Page, Locator } from '@playwright/test';
 
 const HOME_URL = 'https://codemify.com/';
 
-export class CodemifyHomePage {
+export class HomePage {
   readonly page: Page;
   readonly aiCoursesLink: Locator;
   readonly aiEngineeringLink: Locator;

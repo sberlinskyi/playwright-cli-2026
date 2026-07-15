@@ -1,9 +1,9 @@
 import { test as base, expect } from '@playwright/test';
-import { CodemifyHomePage } from '../pages/CodemifyHomePage';
+import { HomePage } from '../pages/HomePage';
 import { AIEngineeringPage } from '../pages/AIEngineeringPage';
 
 type Fixtures = {
-  homePage: CodemifyHomePage;
+  homePage: HomePage;
   aiEngineeringPage: AIEngineeringPage;
   mockAnalytics: void;
 };
@@ -25,7 +25,7 @@ export const test = base.extend<Fixtures>({
   ],
 
   homePage: async ({ page }, use) => {
-    await use(new CodemifyHomePage(page));
+    await use(new HomePage(page));
   },
 
   aiEngineeringPage: async ({ page }, use) => {

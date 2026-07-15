@@ -56,7 +56,7 @@ test.describe('Critical User Workflow', () => {
     await productsPage.addProductToCart(1);
     await productsPage.goToCart();
 
-    const quantity = cartPage.quantityValue();
+    const quantity = cartPage.quantityValue;
     await expect(quantity, 'Initial quantity should be 1').toHaveText('1');
 
     await cartPage.increaseQuantity(1);

@@ -5,12 +5,14 @@ export class CartPage extends BasePage {
   readonly cartItems: Locator;
   readonly checkoutButton: Locator;
   readonly continueShoppingButton: Locator;
+  readonly quantityValue: Locator;
 
   constructor(page: Page) {
     super(page);
     this.cartItems = page.locator('.cart-item');
     this.checkoutButton = page.getByTestId('checkout-button');
     this.continueShoppingButton = page.getByRole('button', { name: 'Continue Shopping' });
+    this.quantityValue = page.locator('.quantity-value');
   }
 
   removeButton(productId: number): Locator {
@@ -23,10 +25,6 @@ export class CartPage extends BasePage {
 
   decreaseQuantityButton(productId: number): Locator {
     return this.page.getByTestId(`decrease-quantity-${productId}`);
-  }
-
-  quantityValue(): Locator {
-    return this.page.locator('.quantity-value');
   }
 
   itemHeading(name: string): Locator {
