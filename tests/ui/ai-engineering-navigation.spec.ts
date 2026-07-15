@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/codemifyFixture';
+import { test, expect } from '../../fixtures/apiMockFixture';
 
 test.describe('AI Engineering', () => {
   test('user has access to AI Engineering page when the request is successful', async ({ homePage, aiEngineeringPage }) => {

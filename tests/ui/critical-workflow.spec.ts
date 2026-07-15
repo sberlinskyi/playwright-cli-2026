@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/codemifyDemoFixture';
+import { test, expect } from '../../fixtures/demoFixture';
 import users from '../../testData/users.json';
 import { createCheckoutInfo } from '../../utilities/factories/checkoutFactory';
 
