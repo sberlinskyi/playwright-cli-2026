@@ -8,7 +8,7 @@ import {
 import { validateSchema } from '../../utilities/validators/schemaValidator';
 
 test.describe('Products API', () => {
-  test('GET /api/products - Products page - should return the full product list', async ({
+  test('GET /api/products - should return the full product list', async ({
     request,
   }) => {
     const response = await request.get(`${APP_URL}/api/products`);
