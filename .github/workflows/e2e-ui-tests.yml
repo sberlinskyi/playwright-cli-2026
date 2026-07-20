@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: E2E UI Tests
 on:
   push:
     branches: [ main, master ]
@@ -12,7 +12,7 @@ on:
         default: ''
 jobs:
   test:
-    name: Playwright Tests
+    name: E2E UI Tests
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
@@ -28,11 +28,11 @@ jobs:
       run: echo "$TEST_USERS_JSON" > testData/users.json
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - name: Run Playwright tests
+    - name: Run Playwright UI tests
       env:
         TEST_ENV: ${{ github.event.inputs.environment }}
         PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
-      run: npx playwright test --reporter=html,json
+      run: npx playwright test tests/ui --reporter=html,json
     - name: Publish test summary
       if: always()
       run: node reporting/printTestSummary.js results.json

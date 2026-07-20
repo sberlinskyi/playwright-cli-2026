@@ -1,0 +1,44 @@
+name: API Tests
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to run against (leave blank for none)'
+        required: false
+        default: ''
+jobs:
+  test:
+    name: API Tests
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Restore test data from secrets
+      env:
+        TEST_USERS_JSON: ${{ secrets.TEST_USERS_JSON }}
+      run: echo "$TEST_USERS_JSON" > testData/users.json
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    - name: Run Playwright API tests
+      env:
+        TEST_ENV: ${{ github.event.inputs.environment }}
+        PLAYWRIGHT_JSON_OUTPUT_NAME: results.json
+      run: npx playwright test tests/api --reporter=html,json
+    - name: Publish test summary
+      if: always()
+      run: node reporting/printTestSummary.js results.json
+    - uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30
